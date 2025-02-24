@@ -1,0 +1,20 @@
+#parent{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.child{
+    background-color: blueviolet;
+}
+.child4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.child1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.child5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
